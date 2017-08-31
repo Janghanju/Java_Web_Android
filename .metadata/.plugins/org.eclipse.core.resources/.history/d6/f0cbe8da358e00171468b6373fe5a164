@@ -1,0 +1,9 @@
+import kr.co.bit.BoardVO;
+
+public class MS01 {
+	public static void main(String[] args) {
+		
+		BoardVO vo= new BoardVO(1, "연습", "연습", "홍길동");
+		
+	}
+}
