@@ -14,6 +14,10 @@ public class MS02 {
 		list.add(new BoardVO(3, "연습3", "연습3", "홍길동3"));
 		list.add(new BoardVO(4, "연습4", "연습4", "홍길동4"));
 		
+		for(int i=0; i<list.size(); i++) {
+			System.out.println(list.get(i));
+		}
+		
 		for(BoardVO i : list) {
 			System.out.println(i);
 		}
