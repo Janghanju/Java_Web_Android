@@ -1,0 +1,23 @@
+import java.net.MalformedURLException;
+import java.net.URL;
+
+import net.htmlparser.jericho.Source;
+
+public class MS06 {
+
+	public static void main(String[] args) {
+		
+		// HTML Parsing API(jericho)
+		String url = "http://www.su.or.kr/03bible/daily/qtView.do?qtType=QT1";
+		try {
+			URL u = new URL(url);
+			Source src = new Source(u);
+			System.out.println(src);
+		} catch (MalformedURLException e) {
+			e.printStackTrace();
+		}
+		
+		
+	}
+
+}
