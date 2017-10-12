@@ -110,4 +110,6 @@
 		<item value="org.springsource.sts.package:3.9.0.201707061823-RELEASE-e47"/>
 		<item value="org.springsource.sts:3.9.0.201707061823-RELEASE"/>
 	</list>
+	<section name="NewWizardAction">
+	</section>
 </section>
